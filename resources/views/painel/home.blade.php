@@ -3,7 +3,7 @@
 @section('titulo', 'Login')
 
 @section('conteudo')
-    <div class="conteudo-pagina">
+    <div class="conteudo-pagina" style="height: 80ch">
         <div class="titulo-pagina">
             <h4>Seja Bem Vindo!! {{($_SESSION['nome'])}}
         </div>

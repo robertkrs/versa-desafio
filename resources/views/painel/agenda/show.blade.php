@@ -5,9 +5,9 @@
 @section('conteudo')
     <div id="container-agenda">
         <div class="titulo-pagina">
-            <h1>Gestão da Agenda</h1>
+            <h1>Agendamento</h1>
         </div>
-            <div class="list-group">
+            <div class="list-group" style="padding: 100px 400px">
                 <a href="#" class="list-group-item list-group-item-action flex-column align-items-start ">
                     <div class="d-flex w-100 justify-content-between" style="width:50%">
                         <h5 class="mb-1">Titulo: <small>{{$model->titulo ? $model->titulo : '-'}}</small></h5>
